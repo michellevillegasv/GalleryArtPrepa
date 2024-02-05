@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Arte</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="title">Galería de arte
+        <div id="category-buttons">
+            <button class="filter-btn" data-category="all">Mostrar todo</button>
+            <button class="filter-btn" data-category="paisaje">Paisajes</button>
+            <button class="filter-btn" data-category="retrato">Retratos</button>
+            <button class="filter-btn" data-category="abstracto">Abstracto</button>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item retrato">
+            <img src="https://i.pinimg.com/474x/41/ec/ea/41eceac7bbde1f86c6d18ade5ea8d723.jpg" alt="Obra de arte 1">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 1</h3>
+                <p>Descripción de la obra de arte 1</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+
+        <div class="gallery-item retrato">
+            <img src="https://i1.wp.com/rz100arte.com/wp-content/uploads/2016/03/woman-with-hat-1905.jpg?resize=256%2C256&ssl=1" alt="Obra de arte 2">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 2</h3>
+                <p>Descripción de la obra de arte 2</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+
+        <div class="gallery-item paisaje">
+            <img src="https://www.artmajeur.com/medias/mini/b/a/barbara-piatti/artwork/330813_TourdeFrancehuiletechniquemixtesurtoile100x100cm_redimensionner.jpg" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 3</h3>
+                <p>Descripción de la obra de arte 3</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+
+        <div class="gallery-item paisaje">
+            <img src="https://d33y0z4ooepzrm.cloudfront.net/images/5c1c58ba397ad85e12b762aa790619b87e539e18/bigthumb/5c1c58ba397ad85e12b762aa790619b87e539e18.jpg" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 4</h3>
+                <p>Descripción de la obra de arte 4</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+        <div class="gallery-item retrato">
+            <img src="https://cachedimages.podchaser.com/256x256/aHR0cHM6Ly9kM3Qzb3pmdG1kbWgzaS5jbG91ZGZyb250Lm5ldC9wcm9kdWN0aW9uL3BvZGNhc3RfdXBsb2FkZWRfbm9sb2dvLzg1NDAzOTUvODU0MDM5NS0xNTk4NzU5MjI1Nzk1LTRjYmI4Njg1MjQ0OTcuanBn/aHR0cHM6Ly93d3cucG9kY2hhc2VyLmNvbS9pbWFnZXMvbWlzc2luZy1pbWFnZS5wbmc%3D" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 5</h3>
+                <p>Descripción de la obra de arte 5</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+        <div class="gallery-item abstracto">
+            <img src="https://img.stablecog.com/insecure/256w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vNzIyNDc5M2ItMzlhNy00ODE3LWFlOTgtMmRjNjc0NGZhNmU5LmpwZWc.webp" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 6</h3>
+                <p>Descripción de la obra de arte 5</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+        <div class="gallery-item abstracto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEI1UcJxqgIRBF_aBOlg4slddHApdPp2ldEA&usqp=CAU" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 7</h3>
+                <p>Descripción de la obra de arte 5</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+        <div class="gallery-item paisaje">
+            <img src="https://d7hftxdivxxvm.cloudfront.net/?height=256&quality=80&resize_to=fill&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FXEpJbvkkvh__j5ipELwigg%2Flarger.jpg&width=256" alt="Obra de arte 3">
+            <div class="overlay"></div>
+            <div class="info">
+                <h3>Obra de arte 8</h3>
+                <p>Descripción de la obra de arte 5</p>
+            </div>
+            <button class="like-btn">Me gusta</button>
+            <span class="like-count">0</span>
+        </div>
+    </div>
+    <div id="divisor"></div>
+    <div class="gallery-2">
+        <img id="picture1" src="https://ichef.bbci.co.uk/news/640/cpsprodpb/16F25/production/_105198939_9668d4d2-a53a-4dc3-9d94-bef036be0cd8.jpg">
+        <div id="text-description">Esta obra de arte captura la esencia de la calma y la tranquilidad a través de una delicada paleta de colores pastel y pinceladas suaves. Mediante la representación de un paisaje sereno con un lago tranquilo rodeado de exuberante vegetación, el artista invita al espectador a sumergirse en un mundo de paz y armonía. La cuidadosa composición y la atmósfera etérea transmiten una sensación de serenidad profunda, invitando al observador a desconectar del ajetreo diario y encontrar un momento de quietud 
+            contemplativa.La cuidadosa composición de la obra guía al ojo del observador a través de cada elemento, llevándolo a un estado de 
+            contemplación y meditación. La atmósfera etérea que se desprende de la obra envuelve al espectador en una sensación de serenidad profunda, invitándolo a desconectar del ajetreo 
+            diario y sumergirse en un momento de tranquilidad.
+        </div>
+        
+    </div>
+    <div id="divisor"></div>
+    <div class="form">
+        <div id="texto">¡Expresa tu opinión!</div>
+        <div id="box-form">
+            <input class="input" id="nombre" placeholder="Nombre y Apellido">
+            <input class="input" id="correo"  placeholder="Correo Electrónico">
+            <input class="input"id="telefono" placeholder="Número de Teléfono">
+            <input class="input" id="opinion" placeholder="Opinión">
+        </div>
+        <button id="enviar">Enviar</button>
+    </div>
+    <footer>
+        <div id="letra">Derechos de autor &copy; 2024 - Mi página web</div>
+    </footer>
+</body>
+</html>
